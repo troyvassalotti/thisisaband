@@ -1,0 +1,10 @@
+<section class="section narrow">
+  {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+  {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+  <p class="tag-link">
+    <a href={{ .RelPermalink }}>{{$name}}</a>
+    <sup>{{$cnt}}</sup>
+  </p>
+  {{end}}
+  {{end}}
+</section>

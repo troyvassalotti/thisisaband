@@ -195,6 +195,10 @@ img.Image__Zoom ~ div {
 .author-alc-section {
   padding-left: 0;
   padding-right: 0;
+
+  .pagination {
+    margin-block-end: clamp(2em, 20vw, 5em);
+  }
 }
 
 .icon-image {

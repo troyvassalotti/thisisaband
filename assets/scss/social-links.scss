@@ -13,7 +13,7 @@
 .social-icon-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   min-width: 100%;
   position: relative;
   margin-left: 3.2rem;
@@ -21,7 +21,8 @@
   max-width: 16px;
 
   a {
-    margin-right: 25px;
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
   }
 }
 

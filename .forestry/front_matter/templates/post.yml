@@ -44,3 +44,5 @@ fields:
   type: tag_list
   default: []
   label: Authors
+pages:
+- content/post/this-is-the-dirty-nil.md

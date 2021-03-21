@@ -1,9 +1,8 @@
 ---
 title: Troy Vassalotti
-bio: 'I started this blog because I bought a domain that was too good to pass up,
-  but also because music is great.'
-avatar: "/images/dennis-brotzky.jpg"
-hero: "/images/dennis-brotzky.jpg"
+bio: 'I started this blog because I bought a cool domain and music is fun to share.'
+avatar: "/images/troyvassalotti.jpg"
+hero: "/images/troyvassalotti.jpg"
 featured: true
 social:
 - title: github

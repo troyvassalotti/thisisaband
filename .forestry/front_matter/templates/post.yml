@@ -18,8 +18,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
 - name: timeToRead
   type: number
@@ -28,14 +28,18 @@ fields:
   default: 0
   config:
     required: true
-    min: 
-    max: 
-    step: 
+    min:
+    max:
+    step:
 - name: hero
   type: file
   config:
     maxSize: 250
   label: Hero Image
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - name: authors
   type: tag_list
   default: []

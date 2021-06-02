@@ -1,4 +1,4 @@
-# This is a band
+# This _was_ a band
 
 Community band-sharing made easy.
 
